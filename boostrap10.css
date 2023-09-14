@@ -1,0 +1,248 @@
+.bgimage{
+    background: url('./image/hero-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+  
+}
+.bgcolor{
+    background-color: rgba(17, 17, 17, 0.301);
+    height: 500px;
+}
+.navbar{
+    width: 1000px;
+    position: relative;
+    top: 40px;
+    box-shadow:  3px 9px 3px rgba(0, 0,0, 0.1) ;
+
+}
+.nav-link:hover{
+    color: #009970;
+}
+.get{
+    color: white;
+    border-radius: 50px;
+  
+  
+}
+.start{
+    border-radius: 50px;
+    border: 2px solid;
+
+}
+.bgvert{
+    background-color: #009970;
+}
+.navbar-brand{
+    width: 100px;
+    color: white;
+
+}
+.clients{
+    background-color: rgb(226, 224, 224);
+    height: 100px;
+}
+.clients .part .client{
+    width: 50px;
+    height: 40px;
+}
+
+.choose{
+    background-color: #009970;
+   width: 300px;
+  
+
+}
+.more{
+    background-color: #009970;
+    border-radius: 50px;
+    color: white;
+   
+
+
+}
+.more:hover{
+    background-color: white;
+    color: black;
+}
+.bi{
+   color: #009970;
+   height: 70px;
+   
+  
+}
+.groupcard{
+    border: none;
+    height: 350px;
+    box-shadow:  3px 9px 3px rgba(0, 0,0, 0.1) ;
+}
+.aut{
+    color: gray;
+
+}
+ .bgbureau{
+    background: url('./image/cta-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+   background-attachment: fixed;
+
+} 
+/* service */
+.services{
+    background-color: #f6f6f7;
+    height: 550px;
+}
+.trait{
+    border: 2px solid #009970;
+    width: 50px;
+}
+.raduis{
+    border: 1px solid  #009970;
+     border-radius: 50%; 
+    height: 60px ;
+    width: 60px;
+}
+.raduis:hover{
+    background-color:#009970;
+   
+}
+
+.lorem{
+ 
+    background-color: white;
+    border: none;
+}
+
+.blanc:hover{
+    color:white ;
+}
+.all{
+    border: none;
+    background: none;
+
+}
+.all:hover{
+    border-radius: 50px;
+    background-color: #009970;
+    color: white;
+}
+/* TESTIMONIALS */
+.test{
+    background-color: #f6f6f7;
+    height: 500px;
+}
+.vert{
+    color:#009970;
+}
+.temo{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+/* team */
+
+.tam{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    
+}
+.team-1{
+    border: none;
+    box-shadow:  3px 9px 3px 9px rgba(0, 0,0, 0.1) 
+}
+hr{
+    
+    width: 50px;
+
+
+}
+.bgbrands{
+    background-color: gray;
+    margin: 5px;
+    color: white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding: 6px;
+}
+.bgbrands:hover{
+    background-color: #009970;
+
+}
+.monde{
+    height: 300px;
+   width: 800px;
+}
+.groupecolor{
+    box-shadow:  3px 9px 3px 9px rgba(0, 0,0, 0.1) ;
+    background-color: white;
+}
+.local{
+    background-color:#009970 ;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.formulaire{
+    box-shadow:  3px 9px 3px 9px rgba(0, 0,0, 0.1) ;
+    background-color: white;
+
+}
+textarea{
+    width: 735px;
+    height: 150px;
+    border: 1px solid rgb(179, 175, 175);
+}
+.form-control{
+    background-color: white;
+    border: 1px solid rgb(179, 175, 175);
+    border-radius: 0px;
+    
+
+}
+ .btn .send{ 
+    background-color:#009970 ;
+    border-radius: 50px;
+   
+
+
+
+}
+/* footer */
+.footer{
+    background-color:#f6f6f7 ;
+}
+.fotform{
+    border-radius: 50px;
+
+}
+.submit{
+    position: relative;
+    height: 40px;
+    right: 30px;
+}
+.colorfin{
+    background-color: #f1f0f2;
+}
+.bgbrand{
+    background-color: #009970;
+    margin: 5px;
+    color: white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding: 6px;
+
+}
+@media screen and (max-width:768px){
+    .services{
+        background-color: #f6f6f7;
+        height: 750px
+
+    }
+
+    
+}

@@ -274,10 +274,17 @@ textarea{
     }
     .choose{
       
-        
-       width: 270px;
+        display: flex;
+        margin: auto;
+       width: 280px;
+       
+      
       
     
+    }
+    .card{
+        display: flex;
+        margin: auto;
     }
     /* .formulaire{
         height: 200px;

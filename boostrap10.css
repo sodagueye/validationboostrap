@@ -13,7 +13,7 @@
     width: 1000px;
     position: relative;
     top: 40px;
-    box-shadow:  3px 9px 3px rgba(0, 0,0, 0.1) ;
+    box-shadow:  3px 9px 3px  rgba(0, 0,0, 0.1) ;
 
 }
 .nav-link:hover{
@@ -74,7 +74,7 @@
 .groupcard{
     border: none;
     height: 350px;
-    box-shadow:  3px 9px 3px rgba(0, 0,0, 0.1) ;
+    box-shadow:  3px 9px 3px 9px rgba(0, 0,0, 0.1) ;
 }
 .aut{
     color: gray;
@@ -240,9 +240,48 @@ textarea{
 @media screen and (max-width:768px){
     .services{
         background-color: #f6f6f7;
-        height: 750px
+        height: 1100px
 
     }
+    .test{
+        background-color: #f6f6f7;
+        height: 1100px;
+    }
+    textarea{
+        width: 370px;
+        
+    }
+    .fle{
+        margin-left: none;
+        margin-right: 30px;
+    }
+    .clients{
+
+        height: 300px;
+        margin: auto;
+    }
+    .client1{
+        display: flex;
+        justify-content: space-around;
+        margin: 5px;
+    }
+    
+    .navbar{
+        width: 300px;
+    }
+    .vel{
+        margin: auto;
+    }
+    .choose{
+      
+        
+       width: 270px;
+      
+    
+    }
+    /* .formulaire{
+        height: 200px;
+    } */
 
     
 }
